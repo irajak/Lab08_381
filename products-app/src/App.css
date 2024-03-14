@@ -9,36 +9,28 @@
   color: white;
 }
 
-.App> :first-child {
-  width: 100%;
-  /* Makes the first child occupy the full width */
-  align-self: stretch;
-  /* Optional, if you need the child to stretch to the container's width */
+.App > :first-child {
+  width: 100%; /* Makes the first child occupy the full width */
+  align-self: stretch; /* Optional, if you need the child to stretch to the container's width */
 }
 
 .navbar {
-  background-color: #333740;
-  /* Slightly lighter than the app background for contrast */
+  background-color: #333740; /* Slightly lighter than the app background for contrast */
 }
 
 .nav-link {
   color: #ffffff;
-  transition: color 0.2s;
-  /* Smooth transition for color change */
+  transition: color 0.2s; /* Smooth transition for color change */
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #cccccc;
-  /* Lighter color on hover */
-  text-decoration: none;
-  /* Optional: removes underline on hover */
+.nav-link:hover, .nav-link:focus {
+  color: #cccccc; /* Lighter color on hover */
+  text-decoration: none; /* Optional: removes underline on hover */
 }
 
 .nav-full-width {
   width: 100%;
-  justify-content: space-between;
-  /* Spread items evenly */
+  justify-content: space-between; /* Spread items evenly */
 }
 
 /* Tooltip styling */
@@ -52,6 +44,6 @@
 
 /* for hovering list's items */
 .hover-highlight:hover {
-  background-color: #f8f9fa !important;
-  /* Light grey background on hover */
+  background-color: #f8f9fa !important; /* Light grey background on hover */
 }
+
